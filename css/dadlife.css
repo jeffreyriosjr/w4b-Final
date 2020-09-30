@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to bottom right,rgb(238, 230, 115), rgb(142, 187, 183));
+    border: 3px solid rgb(34, 29, 29);
+     
+    }
+
+ nav{
+ background: rgb(165, 172, 156);
+ width: 89%;
+ overflow: none;
+ text-align: right;
+ font-family: monospace;
+ padding: 0%;
+ margin: 3%;
+ font-size: large;
+}
+
+    ul{
+        margin: 1%;
+        list-style: center;
+        margin-left:none;
+        margin-right: 55%;
+
+    }
+   
+    
+    .container{
+
+    max-width: 1200px;
+    margin: none;
+    background:transparent;
+    overflow: auto;
+                }
+.gallery{
+margin:2px;
+border: 2px solid rgb(126, 48, 48);
+float: right;
+width: 500px;
+
+}
+.gallery img{
+    
+width: 100%;
+height: auto;
+page-break-after: auto;
+
+}
+.desc{
+padding:2px;
+text-align: center;
+color: lightcoral;
+}
+
+footer{
+    padding: 50px;
+    font-size: 77px;
+    font-weight: bold;
+    text-align: center;
+}
+    
+
+nav{
+    text-align: center;
+    color: rgb(74, 8, 119);
+   
+}
+
+ul{
+    padding: 1;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: right;
+    float: none;
+}

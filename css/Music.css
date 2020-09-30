@@ -1,8 +1,82 @@
 body{
-  
+
     background-image:url(IMG/Rioscover.png);
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
-    background-repeat:repeat;
+    background-repeat:no-repeat;
     background-attachment: scroll;
+
 }
+
+h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    font-size: 85px;
+}
+
+
+a{
+    text-decoration: none;
+    text-align:center;
+    margin-bottom: 10%;
+    
+}
+
+
+
+nav li{
+    color: rgb(183, 232, 159);
+    font-display: center;
+    height: 300px;
+    text-align: center ;
+    line-height: 420px;
+    font-size: 500%;
+    font-family: 'Oswald', sans-serif;
+    
+     }
+
+
+/* /* nav li a:link{
+    color:rgb(156, 202, 39);
+    text-emphasis-color: red; */
+
+
+
+
+
+ nav li a:hover{
+    background: rgb(19, 21, 3);
+    transition: 5ms;
+    text-decoration: none;
+    background-size: contain;
+     }
+
+nav li a:active{
+    color: rgb(45, 99, 193);
+    text-decoration:none;
+}
+nav li a:visited{
+    color: rgb(213, 232, 232);
+}
+ul{
+    list-style-type: none;
+    text-decoration: rgb(6, 2, 24);
+}
+
+
+
+    footer{
+        width: 50px;
+        height: 50%;
+    }
+        
+  .fa-color{
+      color:orange;
+  }
+  .fa-color1{
+      color: limegreen;
+  }
+  .fa-color2{
+      color: black;
+  }
