@@ -1,37 +1,68 @@
-body{
-    background-repeat: no-repeat;
-    background-attachment: none;
-    padding: 1%;
-    border: 3px solid white;
-    font-family: Oswald,sans-serif;
-    position: relative;
-    background-size: cover;
-    background-image: url(Img.);
-  
+
+button{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration:none;
+    color: rgb(183, 212, 19);
+    padding: 9px 25px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    cursor: auto;
+
+
+
+}
+button:hover{
+    color: thistle;
+ 
+
+}
+
+.logo{
+    cursor: pointer;
+    display: flex;
+    margin-right: left;
     
-
-    }
-
-
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 45px;
+    
+}
+p{
+    font-size: 20px;
+    line-height: 2em;
+    text-align: center;
+    color: white;
+    margin-bottom: 12px;
+    
+    
+}
 
 a{
     text-decoration: none;
     text-align:left;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 
 
 
 nav li{
-    color: rgb(159, 196, 195);
-    display: table-row;
-    height: 150px;
-    width: 75;
-    line-height: 220px;
+    padding: none;
+    color: rgb(177, 12, 12);
+    display: table-row-group;
+    height: 150%;
+    width: 50%;
+    line-height: 320px;
     font-size: 600%;
-    text-align:justify;
-    position: sticky;
+    text-align:left;
+    position: relative;
     font-family: 'Oswald', sans-serif;
+    transition: all 0.3s ease 0s;
     
      }
 /* /* nav li a:link{
@@ -43,20 +74,21 @@ nav li{
 
 
  nav li a:hover{
-    background: rgb(56, 146, 237);
+    background: rgb(23, 68, 122);
     transition: 5ms;
     text-decoration: none;
-    background-size: 100%;
-     
-     
-     
-     }
+    background-blend-mode: lighten;
+    color: rgb(242, 128, 128);
+    
+      }
+
 nav li a:active{
     color: fuchsia;
     text-decoration:none;
+    
 }
 nav li a:visited{
-    color: rgb(214, 218, 218);
+    color: rgb(1, 1, 1);
 }
 ul{
     list-style-type:none;
@@ -64,7 +96,7 @@ ul{
 }
 
 .fa-color{
-    color:rgb(20, 51, 172);
+    color:rgb(199, 28, 28);
     padding: 4mm;
 }
 .fa-color1{
@@ -72,10 +104,30 @@ ul{
     padding: 4mm;
 }
 .fa-color2{
-    color: black;
+    color: rgb(170, 19, 19);
     padding: 5mm;
     
 }
+
+footer{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    text-align:center;
+    font-family:'Oswald', sans-serif;
+    background-color: transparent;
+    position: center;
+    margin-top: auto;
+  
+  
+   }
+   h2{
+       color:red;
+   }
+
+   
+
+
 
     
       

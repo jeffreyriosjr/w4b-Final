@@ -1,25 +1,46 @@
-body{
 
-    background-image:url(IMG/Rioscover.png);
-    background-size: contain;
-    background-attachment: fixed;
-    background-repeat:no-repeat;
-    background-attachment: scroll;
 
+button{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration:none;
+    color: rgb(6, 51, 54);
+    padding: 9px 25px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    cursor: auto;
+    display: table-row;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 2em;
+    text-align: center;
+    color: white;
+    margin-bottom: 12px;
+    
+    
 }
 
 h1{
+    color: white;
     text-align: center;
+    margin-top: 2%;
+    font-size: 45px;
     font-family: 'Oswald', sans-serif;
-    color: whitesmoke;
-    font-size: 85px;
+    
 }
+
 
 
 a{
     text-decoration: none;
     text-align:center;
-    margin-bottom: 10%;
+    margin-top: 11%;
+    line-height: 1em;
     
 }
 
@@ -53,7 +74,7 @@ nav li{
      }
 
 nav li a:active{
-    color: rgb(45, 99, 193);
+    color: rgb(214, 225, 243);
     text-decoration:none;
 }
 nav li a:visited{
@@ -61,15 +82,10 @@ nav li a:visited{
 }
 ul{
     list-style-type: none;
-    text-decoration: rgb(6, 2, 24);
+    text-decoration: none;
+    color: white;
 }
 
-
-
-    footer{
-        width: 50px;
-        height: 50%;
-    }
         
   .fa-color{
       color:orange;
@@ -80,3 +96,24 @@ ul{
   .fa-color2{
       color: black;
   }
+  .fa-colorA{
+      color: white;
+
+  }
+  .fa-colorC{
+      color: white;
+  }
+
+  footer{
+    
+    list-style: none;
+    color: white;
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+    background-color:transparent;
+    position: center;
+    
+    margin-left: 5%;
+  
+  
+   }
